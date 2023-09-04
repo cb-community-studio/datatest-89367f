@@ -1,0 +1,15 @@
+.layout-normal-container,
+.layout-main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    transition: margin-left $transitionDuration;
+}
+.layout-normal-container {
+    padding: 7rem 2rem 2rem 4rem;
+}
+
+.layout-main {
+    flex: 1 1 auto;
+}
